@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .box {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            background: #1e293b;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 15px 25px;
+            font-size: 18px;
+            background: #22c55e;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #16a34a;
+        }
+    </style>
+</head>
+<body>
+
+<header>🎮 My Game</header>
+
+<div class="box">
+    <h2>Play My Game!</h2>
+    <p>This is my awesome game. Click below to play.</p>
+    
+    <button onclick="playGame()">Play</button>
+</div>
+
+<script>
+function playGame() {
+    alert("Add your game link here!");
+    // Example:
+    // window.location.href = "https://your-game-link.com";
+}
+</script>
+
+</body>
+</html>
